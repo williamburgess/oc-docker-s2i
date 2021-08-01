@@ -8,15 +8,15 @@ For this tutorial you will need:
 ## Estimated Time
 It will take you around 30 minutes to complete this tutorial.
 ## Steps
-- [Create a GitHub repo and host a Dockerfile](https://github.com/nerdingitout/oc-docker-s2i#create-a-github-repo-and-host-a-dockerfile)
-- [Create Project](https://github.com/nerdingitout/oc-docker-s2i#create-project)
-- [Create a pod deployment using the Dockerfile from your GitHub repo](https://github.com/nerdingitout/oc-docker-s2i#create-a-pod-deployment-using-the-dockerfile-from-your-github-repo)
-- [Verify that the container process matches the command specified in the Dockerfile](https://github.com/nerdingitout/oc-docker-s2i#verify-that-the-container-process-matches-the-command-specified-in-the-dockerfile)
-- [Setup GitHub Webhook](https://github.com/nerdingitout/oc-docker-s2i#setup-github-webhook)
-- [Make changes on your GitHub repository](https://github.com/nerdingitout/oc-docker-s2i#make-changes-on-your-github-repository)
+- [Create a GitHub repo and host a Dockerfile](https://github.com/IBM/oc-docker-s2i#create-a-github-repo-and-host-a-dockerfile)
+- [Create Project](https://github.com/IBM/oc-docker-s2i#create-project)
+- [Create a pod deployment using the Dockerfile from your GitHub repo](https://github.com/IBM/oc-docker-s2i#create-a-pod-deployment-using-the-dockerfile-from-your-github-repo)
+- [Verify that the container process matches the command specified in the Dockerfile](https://github.com/IBM/oc-docker-s2i#verify-that-the-container-process-matches-the-command-specified-in-the-dockerfile)
+- [Setup GitHub Webhook](https://github.com/IBM/oc-docker-s2i#setup-github-webhook)
+- [Make changes on your GitHub repository](https://github.com/IBM/oc-docker-s2i#make-changes-on-your-github-repository)
 
 ## Fork the GitHub repo and host a Dockerfile
-- Go to <a href="https://github.com/nerdingitout/oc-docker-s2i">this GitHub repository</a> and fork it by clicking the Fork button at the top right of the repo. You will be making changes in the Dockerfile to trigger new pod deployments at a later step in this tutorial.
+- Go to <a href="https://github.com/IBM/oc-docker-s2i">this GitHub repository</a> and fork it by clicking the Fork button at the top right of the repo. You will be making changes in the Dockerfile to trigger new pod deployments at a later step in this tutorial.
 
 The repository has a Dockerfile that contains the following lines of code.
 ```
